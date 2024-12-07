@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.time.LocalDateTime;
 
 @RestController
-@CrossOrigin("*")
+@CrossOrigin(value = "https://chipper-cobbler-256032.netlify.app", allowCredentials = "true")
 public class ChatController {
 
     private RoomRepository roomRepository;
